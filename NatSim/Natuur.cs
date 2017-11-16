@@ -16,11 +16,11 @@ namespace NatSimII
             {
                 Random rand = new Random();
                 Snelheid snelheid = new Snelheid(rand.Next(-4, 4), rand.Next(-4, 4));
-                ( (Dier)leven ).SnelheidObect = snelheid;
+                ( (Dier)leven ).SnelheidObject = snelheid;
             }
             base.Add(leven);
         }
-
+        
         public Natuur() : base()
         {
             _levensKlok.Start();

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Timer = System.Windows.Forms.Timer;
 
 namespace NatSimII
 {
@@ -39,6 +40,9 @@ namespace NatSimII
         {
             return (MaagGevuld < 25);
         }
+
+        public Snelheid SnelheidsObject { get; set; }
+        public Timer Klok { get; set; }
 
         public Point Stap()
         {

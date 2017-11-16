@@ -22,7 +22,7 @@ namespace NatSimII
                     }
                     else
                     {
-                        SnelheidsObject = SnelheidsObject.KeerOm();
+                        SnelheidObject = SnelheidObject.KeerOm();
                     }
                 }
             }

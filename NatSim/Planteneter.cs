@@ -23,7 +23,7 @@ namespace NatSimII
                     }
                     else
                     {
-                        SnelheidsObject = SnelheidsObject.KeerOm();
+                        SnelheidObject = SnelheidObject.KeerOm();
                     }
                 }
                 else if (MaagGevuld < 75)
@@ -34,7 +34,7 @@ namespace NatSimII
             }
             else
             {
-                SnelheidsObject = SnelheidsObject.KeerOm();
+                SnelheidObject = SnelheidObject.KeerOm();
             }
         }
     }

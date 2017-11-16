@@ -1,0 +1,6 @@
+C:\Users\DedSec\source\repos\NatSimII\NatSimUMLLib\bin\Debug\NatSimUMLLib.dll
+C:\Users\DedSec\source\repos\NatSimII\NatSimUMLLib\bin\Debug\NatSimUMLLib.pdb
+C:\Users\DedSec\source\repos\NatSimII\NatSimUMLLib\obj\Debug\NatSimUMLLib.csprojResolveAssemblyReference.cache
+C:\Users\DedSec\source\repos\NatSimII\NatSimUMLLib\obj\Debug\NatSimUMLLib.csproj.CoreCompileInputs.cache
+C:\Users\DedSec\source\repos\NatSimII\NatSimUMLLib\obj\Debug\NatSimUMLLib.dll
+C:\Users\DedSec\source\repos\NatSimII\NatSimUMLLib\obj\Debug\NatSimUMLLib.pdb

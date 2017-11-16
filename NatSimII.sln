@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatSimII", "NatSim\NatSimII.csproj", "{CDEE6CBA-E8C7-4623-9B0E-773880C6A2B3}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "NatSimUML", "NatSimUML\NatSimUML.modelproj", "{41AAF9AE-9B04-494F-98BA-1DDB475D5B22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NatSimUMLLib", "NatSimUMLLib\NatSimUMLLib.csproj", "{33399BAE-3F45-4A47-8E04-D4015F541B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDEE6CBA-E8C7-4623-9B0E-773880C6A2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEE6CBA-E8C7-4623-9B0E-773880C6A2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEE6CBA-E8C7-4623-9B0E-773880C6A2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEE6CBA-E8C7-4623-9B0E-773880C6A2B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41AAF9AE-9B04-494F-98BA-1DDB475D5B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AAF9AE-9B04-494F-98BA-1DDB475D5B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AAF9AE-9B04-494F-98BA-1DDB475D5B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AAF9AE-9B04-494F-98BA-1DDB475D5B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33399BAE-3F45-4A47-8E04-D4015F541B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33399BAE-3F45-4A47-8E04-D4015F541B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33399BAE-3F45-4A47-8E04-D4015F541B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33399BAE-3F45-4A47-8E04-D4015F541B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NatSim">
+  <logicalClassDesignerModelMoniker Id="1ca1d8e8-2380-420b-bbb4-99cebd29329e" />
+  <nestedChildShapes>
+    <classShape Id="be5f9e37-0e2f-4224-9017-fc1b43812791" absoluteBounds="1.375, 0.5, 2.375, 4.7112730101744331" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="c44e26dc-f771-441d-a678-295cb40bc644" LastKnownName="Koe2" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="d63fa80f-01a4-498f-82a6-f69a99ec1d8f" absoluteBounds="1.3900000000000001, 1.0153356393178306, 2.3449999999999998, 3.8847655033071833" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="ac79b288-c8ba-47e5-975e-f769f49440d3" absoluteBounds="1.3900000000000001, 4.9101011426250132, 2.3449999999999998, 0.20117186754942029" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

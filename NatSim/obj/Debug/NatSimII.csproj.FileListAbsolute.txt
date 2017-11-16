@@ -1,0 +1,19 @@
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\obj\Debug\NatSimII.csprojResolveAssemblyReference.cache
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\obj\Debug\NatSimII.frmNatSimII.resources
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\obj\Debug\NatSim.Properties.Resources.resources
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\obj\Debug\NatSimII.csproj.GenerateResource.Cache
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\obj\Debug\NatSim.exe
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\obj\Debug\NatSim.pdb
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\bin\Debug\NatSim.exe.config
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\bin\Debug\NatSim.exe
+C:\Users\jcr7584\Documents\Visual Studio 2015\Projects\NatSimII\NatSim\bin\Debug\NatSim.pdb
+C:\Users\DedSec\source\repos\NatSimII\NatSim\obj\Debug\NatSimII.csprojResolveAssemblyReference.cache
+C:\Users\DedSec\source\repos\NatSimII\NatSim\obj\Debug\NatSimII.frmNatSimII.resources
+C:\Users\DedSec\source\repos\NatSimII\NatSim\obj\Debug\NatSimII.csproj.GenerateResource.Cache
+C:\Users\DedSec\source\repos\NatSimII\NatSim\obj\Debug\NatSimII.csproj.CoreCompileInputs.cache
+C:\Users\DedSec\source\repos\NatSimII\NatSim\bin\Debug\NatSimII.exe.config
+C:\Users\DedSec\source\repos\NatSimII\NatSim\bin\Debug\NatSimII.exe
+C:\Users\DedSec\source\repos\NatSimII\NatSim\bin\Debug\NatSimII.pdb
+C:\Users\DedSec\source\repos\NatSimII\NatSim\obj\Debug\NatSimII.Properties.Resources.resources
+C:\Users\DedSec\source\repos\NatSimII\NatSim\obj\Debug\NatSimII.exe
+C:\Users\DedSec\source\repos\NatSimII\NatSim\obj\Debug\NatSimII.pdb

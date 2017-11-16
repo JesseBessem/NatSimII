@@ -12,7 +12,13 @@ namespace NatSimII
         readonly Timer _levensKlok = new Timer();
         public new void Add(Leven leven)
         {
-            
+            if ( leven.IsDier )
+            {
+                Random rand = new Random();
+                Snelheid snelheid = new Snelheid(rand.Next(-4, 4), rand.Next(-4, 4));
+                ( (Dier)leven ).SnelheidObect = snelheid;
+            }
+            base.Add(leven);
         }
 
         public Natuur() : base()
@@ -24,7 +30,13 @@ namespace NatSimII
 
         public void _levensKlok_Tick(object sender, EventArgs e)
         {
-            
+            foreach ( Leven leven in this )
+            {
+                if (leven.IsDier)
+                {
+                    ( (Dier) leven ).Beweeg();
+                }
+            }
         }
     }
 }

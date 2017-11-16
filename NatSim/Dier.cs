@@ -31,9 +31,7 @@ namespace NatSimII
         public int SpijsverteringsDuur { get; set; }
         public double GewichtMaximaal { get { return _gewichtMaximaal;  } }
         public List<string> WordtVergiftigdDoor { get; set; }
-        public Snelheid SnelheidObect { get; set; }
-        public Snelheid SnelheidsObject { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        System.Windows.Forms.Timer IBewegendObject.Klok { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Snelheid SnelheidObject { get; set; }
 
         // Methoden
         public abstract void Eet(Leven leven);
@@ -44,28 +42,34 @@ namespace NatSimII
 
         public Point Stap()
         {
-            return Stap(this.SnelheidsObject);
-            // waar komt object terecht
-            int berekendeX = Locatie.X + (SnelheidsObject.X);
-            int berekendeY = Locatie.Y + (SnelheidsObject.Y);
-            // bepalen van het nieuwe tekengebied waar het object getekend gaat worden
-            Rechthoek nieuwTekengebied =
-                new Rechthoek(new Point(berekendeX, berekendeY), Tekengebied.Afmetingen);
-
-            Vlak vlak = Rechthoek.GrensBereikt(nieuwTekengebied, GraphicsVenster);
-
-            SnelheidsObject = SnelheidsObject.Stuiter(vlak);
-
-            berekendeX = Locatie.X + (SnelheidsObject.X);
-            berekendeY = Locatie.Y + (SnelheidsObject.Y);
-
-            return new Point(berekendeX, berekendeY);
-
+            return Stap(this.SnelheidObject);
         }
 
-        public Point Stap(Snelheid SnelheidsObject)
+        public Point Stap( Snelheid snelheidsObject )
         {
-            throw new NotImplementedException();
+            this.SnelheidObject = snelheidsObject;
+            // waar komt het object terecht bij de stap?
+            int berekendeX = Locatie.X + ( snelheidsObject.X );
+            int berekendeY = Locatie.Y + ( snelheidsObject.Y );
+            // bepalen van het nieuwe tekengebied waar het object getekend gaat worden
+            Rechthoek nieuwTekenGebied = new Rechthoek(new Point(berekendeX, berekendeY), Tekengebied.Afmetingen);
+            // Berekenen van een nieuwe richting nav een eventuele overschrijding van een grens
+
+            Vlak vlak = Rechthoek.GrensBereikt(nieuwTekenGebied, GraphicsVenster);
+            // berekenen van een nieuwe ichting als het object een rand tegenekomt
+            snelheidsObject = snelheidsObject.Stuiter(vlak);
+            // opnieuw berekenen van de snelheid zodat een wijziging van de richting meegenomen wordt
+            berekendeX = Locatie.X + ( snelheidsObject.X );
+            berekendeY = Locatie.Y + ( snelheidsObject.Y );
+
+            return new Point(berekendeX, berekendeY);
+        }
+
+        public void Beweeg()
+        {
+            Verwijder();
+            Locatie = Stap();
+            Teken();
         }
     }
 }
